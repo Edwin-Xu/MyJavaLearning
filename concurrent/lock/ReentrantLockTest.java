@@ -17,7 +17,7 @@ public class ReentrantLockTest {
     *  - 非公平锁
     *  -
     * */
-    private static  final Lock lock = new ReentrantLock(true);
+    private static  final Lock lock =  new ReentrantLock(true);
     public static void main(String[] args) {
         for (int i = 0; i < 100; i++) {
             new Thread(()->test(),"线程"+i).start();
@@ -34,7 +34,7 @@ public class ReentrantLockTest {
             e.printStackTrace();
         }
         finally {
-            System.out.println(Thread.currentThread().getName()+"is leaving");
+            System.out.println(Thread.currentThread().getName()+" is leaving");
             lock.unlock();
         }
     }
