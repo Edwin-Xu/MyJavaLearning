@@ -1,5 +1,7 @@
 package JavaCoreTechMooc.abstr;
 
+import java.lang.String;
+
 /**
  * Created by Edwin Xu on 5/8/2020 6:34 PM
  */

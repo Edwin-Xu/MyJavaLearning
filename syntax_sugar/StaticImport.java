@@ -1,5 +1,7 @@
 package syntax_sugar;
 
+import java.lang.String;
+
 import static java.lang.Math.PI;
 import static java.lang.Math.max;
 

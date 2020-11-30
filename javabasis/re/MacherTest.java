@@ -1,5 +1,6 @@
 package javabasis.re;
 
+import java.lang.String;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

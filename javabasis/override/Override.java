@@ -1,5 +1,7 @@
 package javabasis.override;
 
+import java.lang.String;
+
 /**
  * Created by Edwin Xu on 8/3/2020 10:02 AM
  *
@@ -39,7 +41,7 @@ public class Override {
 
 
     /*
-    *  public static void main(java.lang.String[]);
+    *  public static void main(String[]);
     descriptor: ([Ljava/lang/String;)V
 
     * */

@@ -2,6 +2,7 @@ package baidu.contest2;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.lang.String;
 import java.util.HashMap;
 
 /**

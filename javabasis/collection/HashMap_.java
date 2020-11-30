@@ -1,6 +1,6 @@
 package javabasis.collection;
 
-import java.util.HashMap;
+import java.lang.String;
 
 /**
  * Created by Edwin Xu on 7/25/2020 7:15 PM

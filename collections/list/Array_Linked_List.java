@@ -1,5 +1,6 @@
 package collections.list;
 
+import java.lang.String;
 import java.util.ArrayList;
 import java.util.LinkedList;
 

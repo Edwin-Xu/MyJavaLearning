@@ -1,5 +1,6 @@
-package annotation;
+package annotation.usage;
 
+import java.lang.String;
 import java.util.Date;
 
 /**

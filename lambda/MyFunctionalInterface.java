@@ -1,5 +1,7 @@
 package lambda;
 
+import java.lang.String;
+
 /**
  * Created by Edwin Xu on 5/3/2020 4:03 PM
  */

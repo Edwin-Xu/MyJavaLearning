@@ -1,5 +1,7 @@
 package jvmmemory;
 
+import java.lang.String;
+
 /**
  * Created by Edwin Xu on 5/4/2020 5:44 PM
  */

@@ -1,5 +1,6 @@
 package rmi;
 
+import java.lang.String;
 import java.rmi.Naming;
 import java.rmi.registry.LocateRegistry;
 

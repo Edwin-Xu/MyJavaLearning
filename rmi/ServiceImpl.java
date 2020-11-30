@@ -1,8 +1,7 @@
 package rmi;
 
-import java.rmi.Naming;
+import java.lang.String;
 import java.rmi.RemoteException;
-import java.rmi.registry.LocateRegistry;
 import java.rmi.server.UnicastRemoteObject;
 
 /**

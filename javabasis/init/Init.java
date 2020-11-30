@@ -1,5 +1,7 @@
 package javabasis.init;
 
+import java.lang.String;
+
 /**
  * Created by Edwin Xu on 5/12/2020 10:57 PM
  */

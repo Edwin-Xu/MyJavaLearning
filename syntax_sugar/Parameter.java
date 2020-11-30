@@ -1,5 +1,7 @@
 package syntax_sugar;
 
+import java.lang.String;
+
 /**
  * Created by Edwin Xu on 4/27/2020 11:41 PM
  *

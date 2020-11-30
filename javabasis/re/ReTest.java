@@ -2,11 +2,13 @@ package javabasis.re;
 
 import util.PrintUtil;
 
+import java.lang.String;
+
 /**
  * Created by Edwin Xu on 9/8/2020 11:33 PM
  */
 public class ReTest {
-    public static void matches(String str,String re){
+    public static void matches(String str, String re){
         PrintUtil.print(str,re,":",str.matches(re));
     }
     public static void main(String[] args) {

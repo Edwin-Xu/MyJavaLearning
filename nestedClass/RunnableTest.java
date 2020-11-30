@@ -1,5 +1,7 @@
 package nestedClass;
 
+import java.lang.String;
+
 /**
  * Created by Edwin Xu on 8/7/2020 7:39 PM
  */

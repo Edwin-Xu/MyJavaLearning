@@ -1,7 +1,8 @@
-package annotation;
+package annotation.usage;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;
+import java.lang.String;
 
 /**
  * Created by Edwin Xu on 8/7/2020 6:58 PM

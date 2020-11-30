@@ -1,8 +1,9 @@
-package annotation;
+package annotation.usage;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;
 import java.lang.reflect.Method;
+import java.lang.String;
 
 /**
  * Created by Edwin Xu on 4/29/2020 7:59 PM
@@ -32,7 +33,7 @@ public class MyAnnotation {
         try {
             MyAnnotation ma = new MyAnnotation();
 
-            Class c= Class.forName("annotation.MyAnnotation");
+            Class c= Class.forName("annotation.usage.MyAnnotation");
             Method m= c.getMethod("f", int.class);
             System.out.println(m.getName());
 

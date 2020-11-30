@@ -1,7 +1,6 @@
 package proxy.dynamicProxy;
 import java.lang.reflect.Proxy;
-import java.util.Collections;
-import java.util.HashMap;
+import java.lang.String;
 
 //动态代理模式
 public class DynamicProxyDemo {

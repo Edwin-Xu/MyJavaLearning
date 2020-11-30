@@ -1,5 +1,7 @@
 package proxy.simpleaop;
 import java.lang.reflect.Proxy;
+import java.lang.String;
+
 public class Main {
     public static void main(String[] args) {
         //创建目标对象

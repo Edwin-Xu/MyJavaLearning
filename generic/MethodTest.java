@@ -1,5 +1,7 @@
 package generic;
 
+import java.lang.String;
+
 /**
  * Created by Edwin Xu on 8/25/2020 2:11 PM
  */

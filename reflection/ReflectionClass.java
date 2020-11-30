@@ -1,4 +1,7 @@
 package reflection;
+
+import java.lang.String;
+
 public class ReflectionClass{
     private String name;
     private void f(){

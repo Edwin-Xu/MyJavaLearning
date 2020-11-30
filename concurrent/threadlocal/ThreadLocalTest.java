@@ -1,5 +1,7 @@
 package concurrent.threadlocal;
 
+import java.lang.String;
+
 /*
  * 描述 Java中的ThreadLocal类允许我们创建只能被同一个线程读写的变量。
  * 因此，如果一段代码含有一个ThreadLocal变量的引用，即使两个线程同时执行这段代码，

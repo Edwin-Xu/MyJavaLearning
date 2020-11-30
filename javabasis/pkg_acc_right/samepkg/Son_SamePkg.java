@@ -1,5 +1,7 @@
 package javabasis.pkg_acc_right.samepkg;
 
+import java.lang.String;
+
 /**
  * Created by Edwin Xu on 8/25/2020 12:54 PM
  */

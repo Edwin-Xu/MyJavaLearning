@@ -1,8 +1,8 @@
 package javastream;
 
+import java.lang.String;
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Predicate;
 import java.util.function.Supplier;
 
 /**

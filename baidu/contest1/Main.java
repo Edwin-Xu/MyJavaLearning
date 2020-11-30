@@ -1,5 +1,6 @@
 package baidu.contest1;
 
+import java.lang.String;
 import java.util.Scanner;
 
 /**

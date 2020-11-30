@@ -1,5 +1,7 @@
 package bytecode.jclasslib;
 
+import java.lang.String;
+
 /**
  * Created by Edwin Xu on 8/27/2020 6:58 PM
  */

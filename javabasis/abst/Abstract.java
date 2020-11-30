@@ -1,7 +1,6 @@
 package javabasis.abst;
 
-import java.util.AbstractList;
-import java.util.List;
+import java.lang.String;
 
 /**
  * Created by Edwin Xu on 6/23/2020 8:46 PM

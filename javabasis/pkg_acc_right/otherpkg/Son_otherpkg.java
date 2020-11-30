@@ -2,6 +2,8 @@ package javabasis.pkg_acc_right.otherpkg;
 
 import javabasis.pkg_acc_right.samepkg.Father;
 
+import java.lang.String;
+
 /**
  * Created by Edwin Xu on 8/25/2020 12:58 PM
  */

@@ -1,5 +1,6 @@
 package JavaCoreTechMooc.collections;
 
+import java.lang.String;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
