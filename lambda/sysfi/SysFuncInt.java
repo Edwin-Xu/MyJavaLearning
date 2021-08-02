@@ -1,4 +1,4 @@
-package lambda;
+package lambda.sysfi;
 
 import java.lang.String;
 import java.util.function.Consumer;
@@ -13,13 +13,14 @@ public class SysFuncInt {
 
     public static void main(String[] args) {
         Predicate<Integer> p = a->{
-            if (a%2==0)return true;
-            return false;
+            return a % 2 == 0;
         };
         System.out.println(p.test(12));
 
         Consumer<Integer> c = a->{
-            if (a%2==0) System.out.println(a +"是偶数");
+            if (a%2==0) {
+                System.out.println(a +"是偶数");
+            }
         };
         c.accept(2);
 

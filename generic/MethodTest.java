@@ -9,6 +9,7 @@ public class MethodTest {
     public static  <T> T get(T a){
         return a;
     }
+
     public static void main(String[] args) {
         System.out.println(MethodTest.get("!2"));
         System.out.println(MethodTest.<Integer>get(12));
