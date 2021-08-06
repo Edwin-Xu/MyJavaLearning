@@ -1,4 +1,5 @@
 # java核心技术-高阶
+
 ## 基础
 - 多用lambda，高大上： java.util.function (4个基本的函数式接口)
 
