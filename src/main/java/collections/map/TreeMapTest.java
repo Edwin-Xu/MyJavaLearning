@@ -3,6 +3,7 @@ package collections.map;
 import java.lang.String;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.WeakHashMap;
 
 /**
  * Created by Edwin Xu on 8/3/2020 6:44 PM
@@ -12,17 +13,19 @@ public class TreeMapTest {
 //        TreeMap
 //        SortedMap
 
-        TreeMap<Integer,Integer> map = new TreeMap<>();
-        map.put(3,3);
-        map.put(2,2);
-        map.put(1,1);
-/*
-* 天生排序
-* 红黑树
-* 性能稍差
-* */
-        for (Map.Entry<Integer,Integer> e: map.entrySet()){
+        TreeMap<Integer, Integer> map = new TreeMap<>();
+        map.put(3, 3);
+        map.put(2, 2);
+        map.put(1, 1);
+        /*
+         * 天生排序
+         * 红黑树
+         * 性能稍差
+         * */
+        for (Map.Entry<Integer, Integer> e : map.entrySet()) {
             System.out.println(e.getKey());
         }
+
+        WeakHashMap
     }
 }
