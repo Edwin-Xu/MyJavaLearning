@@ -26,6 +26,5 @@ public class TreeMapTest {
             System.out.println(e.getKey());
         }
 
-        WeakHashMap
     }
 }
