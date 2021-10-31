@@ -1,9 +1,8 @@
 package collections.map;
 
-import java.lang.String;
+import java.util.Collection;
 import java.util.Map;
 import java.util.TreeMap;
-import java.util.WeakHashMap;
 
 /**
  * Created by Edwin Xu on 8/3/2020 6:44 PM
@@ -25,6 +24,10 @@ public class TreeMapTest {
         for (Map.Entry<Integer, Integer> e : map.entrySet()) {
             System.out.println(e.getKey());
         }
+        final Collection<Integer> values = map.values();
+
+
+
 
     }
 }

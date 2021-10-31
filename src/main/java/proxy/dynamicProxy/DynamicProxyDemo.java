@@ -5,6 +5,13 @@ import java.lang.String;
 //动态代理模式
 public class DynamicProxyDemo {
     public static void main(String[] args) {
+        // 产生jdk 代理文件
+        System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
+        // 输出cglib动态代理产生的类
+//        System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY,
+//                "D:\\EdwinXu\\ProgrammingWorkspace\\myspringlearning\\cglib");
+//
+
     	//1.创建目标对象
     	SubjectImpl realSubject = new SubjectImpl();
     	//2.创建调用处理器对象

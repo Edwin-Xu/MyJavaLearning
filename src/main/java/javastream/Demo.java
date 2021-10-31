@@ -12,7 +12,7 @@ public class Demo {
     public static void main(String[] args) {
         Supplier<Integer> s = ()->(int)(10*Math.random());
 
-        Integer [] a = new Integer[100000000];
+        Integer [] a = new Integer[10000];
         for (int i = 0; i < a.length; i++) {
             a[i]=s.get();
         }
